@@ -1,0 +1,10 @@
+# DB dumps contain secrets — keep local only, never push
+db/*.sql
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
