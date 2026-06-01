@@ -12,3 +12,14 @@ Version: 1.0
 
 
 
+
+/* Service sub-pages: reduce side padding on mobile so content is full width */
+@media only screen and (max-width: 690px) {
+    .page-id-817 .col.padding-5-percent > .vc_column-inner,
+    .page-id-818 .col.padding-5-percent > .vc_column-inner,
+    .page-id-819 .col.padding-5-percent > .vc_column-inner,
+    .page-id-820 .col.padding-5-percent > .vc_column-inner {
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+    }
+}
